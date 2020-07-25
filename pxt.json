@@ -1,0 +1,25 @@
+{
+    "name": "IOT物聯網溫度計",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "KSRobot_IOT": "github:kaise-ksrobot/pxt-ksrobot-iot#74a5e0c65a3ad33f1858ab5c66dfbd8e1b84c5e3",
+        "lcd1602": "github:lioujj/pxt-lcd1602#928459b287c2377985bfcc5b87b45c2da66c531c",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.2",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
